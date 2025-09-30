@@ -263,6 +263,13 @@ body {
     font-size: 1.2rem;
 }
 
+/* ====== Кнопка переключения камеры ====== */
+
+#switchCameraBtn {
+    width: 100%;
+    margin-top: 10px;
+}
+
 /* ====== Области предпросмотра ====== */
 
 .preview-area {
@@ -554,6 +561,11 @@ body {
     
     .preview-area {
         height: 320px;
+    }
+
+    #switchCameraBtn {
+        padding: 0.8rem 1rem;
+        font-size: 0.9rem;
     }
 }
 
