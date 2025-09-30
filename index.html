@@ -134,7 +134,7 @@
             (async () => {
                 try {
                     statusEl.innerHTML = '🔄 Загружаю модель художественных стилей...';
-                    model = await tmImage.load(`model.json`, `metadata.json`);
+                    model = await tmImage.load(`./model.json`, `./metadata.json`);
                     statusEl.innerHTML = '✅ Модель загружена! Выберите изображение или запустите камеру';
                 } catch (e) {
                     statusEl.innerHTML = '❌ Ошибка загрузки модели';
@@ -332,4 +332,5 @@
         });
     </script>
 </body>
+
 </html>
